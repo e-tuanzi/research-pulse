@@ -1,0 +1,20 @@
+# Copyright (c) 2026 tuanzi. All rights reserved.
+# Python
+__pycache__/
+.python-version
+uv.lock
+
+# Virtual Environments
+.venv
+
+# IDE
+.trae/
+
+# Project Data (Large files)
+ai_papers_data/
+*.csv
+
+# Sensitive Tools (Not Open Source)
+scraper.py
+scraper_multi_url.py
+repair_data.py
