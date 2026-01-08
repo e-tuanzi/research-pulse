@@ -1,6 +1,6 @@
-# 🧠 Research Pulse (AI 会议论文检索工具)
+# 🧠 Research Pulse (AI会议论文检索工具)
 
-Research Pulse 是一个用于检索和分析 AI 顶级会议论文的智能工具。它集成了数据抓取、布尔搜索、多维筛选和可视化分析功能，帮助研究人员快速发现领域内的热门趋势和高影响力论文。
+Research Pulse 是一个用于检索和分析AI及其具身智能领域顶级会议论文的智能工具。它集成了数据抓取、布尔搜索、多维筛选和可视化分析功能，帮助研究人员快速发现领域内的热门趋势和高影响力论文。
 
 > **⚠️ 注意**：本项目开源部分仅包含**数据检索与分析**的核心功能代码。鉴于相关法律法规及合规性要求，数据抓取（Crawler）工具不开源。项目所需的数据由外部托管并定期更新。
 
@@ -42,8 +42,15 @@ research-pulse/
 
 推荐使用 `uv` 或 `pip` 进行依赖管理。
 
+使用 uv 安装依赖（推荐，基于 pyproject.toml）：
+
 ```bash
-# 使用 pip 安装依赖
+uv sync
+```
+
+使用 pip 安装依赖（传统方式）：
+
+```bash
 pip install streamlit pandas plotly scikit-learn
 ```
 
@@ -55,7 +62,7 @@ pip install streamlit pandas plotly scikit-learn
 2.  解压下载的文件。
 3.  将解压后的 `ai_papers_data` 文件夹放置在项目根目录下。
 
-> 数据集包含主要 AI 顶级会议（如 NeurIPS, CVPR, ICML, ACL 等）的历史论文元数据。我们会定期更新托管数据，请关注版本更新。
+> 数据包含主要人工智能和具身智能领域的顶级会议（如 NeurIPS, CVPR, ICML, ACL 等）的历史论文元数据。我们会定期更新托管数据，请关注版本更新。
 
 ### 3. 运行应用
 
